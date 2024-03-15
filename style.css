@@ -1,0 +1,93 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1% 5%; /* Adjusted padding for both horizontal sides */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    max-width: 500px;
+    margin: 0 auto; /* Center the content horizontally */
+    overflow-x: hidden; 
+    /* cursor: url('Cursors/germ.png'), auto; */
+}
+
+.head{
+    text-align: justify;
+    font-size: x-small;
+}
+
+.body{
+    text-align: justify;
+    font-size: x-small;
+}
+
+.signature{
+    text-align: right;
+    font-size: x-small;
+}
+
+.body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.body video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.iframe-container {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow:visible; /* Ensures that content exceeding the width is hidden */
+}
+
+.iframe-container iframe {
+    width: 100%; /* Set the width of the iframe */
+    max-width: 100%; /* Limit the maximum width of the iframe */
+    height: 800px; /* Set the height of the iframe */
+    display: block;
+    margin: 0 auto;
+    transform: scale(1); /* Adjust the scale to shrink the content within the iframe */
+    transform-origin: 0 0; /* Set the origin point for scaling */
+}
+
+.slider {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.slider img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.slider:hover {
+    cursor: grab;
+}
+
+.slider:active {
+    cursor: grabbing;
+}
+
+.special-image:hover,
+.special-image:active {
+    cursor: auto; /* Set a different cursor style for this image */
+    
+}
